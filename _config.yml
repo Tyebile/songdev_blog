@@ -1,12 +1,12 @@
-title: Hexo
+title: Ryder's Blog
 subtitle: ""
 description: ""
 keywords: null
-author: John Doe
+author: Ryder Song
 language: en
 timezone: ""
-url: http://example.com
-permalink: ":year/:month/:day/:title/"
+url: http://blog.songdev.wiki
+permalink: ":year/:month/:day/:hash.html"
 permalink_defaults: null
 pretty_urls:
   trailing_index: true
@@ -19,7 +19,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: ":lang"
 skip_render: null
-new_post_name: ":title.md"
+new_post_name: ":category/:title"
 default_layout: post
 titlecase: false
 external_link:

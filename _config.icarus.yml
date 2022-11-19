@@ -110,38 +110,32 @@ widgets:
   - position: left
     type: profile
     author: Tyebile
-    author_title: Your title
+    # author_title: SDE
     location: Dalian
     avatar:
     avatar_rounded: false
     gravatar:
-    follow_link: https://github.com/ppoffice
+    follow_link: https://github.com/tyebile
     social_links:
       Github:
         icon: fab fa-github
-        url: https://github.com/ppoffice
-      Facebook:
-        icon: fab fa-facebook
-        url: https://facebook.com
+        url: https://github.com/tyebile
       Twitter:
         icon: fab fa-twitter
-        url: https://twitter.com
-      Dribbble:
-        icon: fab fa-dribbble
-        url: https://dribbble.com
-      RSS:
-        icon: fas fa-rss
-        url: /
+        url: https://twitter.com/tyebileS
+      # RSS:
+      #   icon: fas fa-rss
+      #   url: /
   - position: left
     type: toc
     index: true
     collapsed: true
     depth: 3
-  - position: left
-    type: links
-    links:
-      Hexo: https://hexo.io
-      Bulma: https://bulma.io
+  # - position: left
+  #   type: links
+  #   links:
+  #     Hexo: https://hexo.io
+  #     Bulma: https://bulma.io
   - position: left
     type: categories
   - position: left
@@ -153,19 +147,19 @@ widgets:
     order_by: name
     amount:
     show_count: true
-  - position: left
-    type: subscribe_email
-    description:
-    feedburner_id: ""
-  - position: left
-    type: adsense
-    client_id: ""
-    slot_id: ""
-  - position: left
-    type: followit
-    description:
-    action_url: ""
-    verification_code: ""
+  # - position: left
+  #   type: subscribe_email
+  #   description:
+  #   feedburner_id: ""
+  # - position: left
+  #   type: adsense
+  #   client_id: ""
+  #   slot_id: ""
+  # - position: left
+  #   type: followit
+  #   description:
+  #   action_url: ""
+  #   verification_code: ""
 plugins:
   animejs: true
   back_to_top: true
